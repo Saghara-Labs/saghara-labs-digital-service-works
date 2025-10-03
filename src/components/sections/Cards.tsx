@@ -1,40 +1,76 @@
-import Card from "../ui/Card";
+import Card from "@/components/ui/Card";
 
 const cardData = [
   {
-    title: "Tech Acquisition 2021",
-    description: "Biggest enterprise tech acquisitions this year.",
-    image: "/image-1.jpg",
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
     link: "#",
   },
   {
-    title: "AI Breakthroughs",
-    description: "Latest AI research and breakthroughs explained.",
-    image: "/image-1.jpg",
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
     link: "#",
   },
   {
-    title: "Startup Trends",
-    description: "Top startup trends to watch this year.",
-    image: "/image-1.jpg",
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
     link: "#",
   },
   {
-    title: "Cybersecurity Update",
-    description: "Recent security vulnerabilities and patches.",
-    image: "/image-1.jpg",
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
     link: "#",
   },
   {
-    title: "Cloud Innovations",
-    description: "New developments in cloud computing.",
-    image: "/image-1.jpg",
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
     link: "#",
   },
   {
-    title: "Developer Tools",
-    description: "Must-have tools for modern developers.",
-    image: "/image-1.jpg",
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
+    link: "#",
+  },
+  {
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
+    link: "#",
+  },
+  {
+    title: "Saghara Labs",
+    description:
+      "We craft websites, design, copywriting, branding, and visual assets, delivering templates or custom solutions that make your online presence stand out.",
+    image: "/saghara-card.png",
+    icon: "/saghara-icon.png",
+    price: "$299",
     link: "#",
   },
 ];
@@ -42,13 +78,15 @@ const cardData = [
 export default function Cards() {
   return (
     <div className="flex min-h-screen items-center justify-center py-12">
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid max-w-screen-xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {cardData.map((card, index) => (
           <Card
             key={index}
             title={card.title}
             description={card.description}
             image={card.image}
+            icon={card.icon}
+            price={card.price}
             link={card.link}
           />
         ))}
