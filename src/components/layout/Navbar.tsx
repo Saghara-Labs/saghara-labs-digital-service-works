@@ -3,16 +3,12 @@ export default function Navbar() {
     <nav className="start-0 top-0 z-20 w-full border-b border-gray-200 bg-white">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <a
-          href="https://flowbite.com/"
+          href="https://sagharalabs.com"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
-            alt="Flowbite Logo"
-          />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap">
-            Flowbite
+          <img src="sagharalabs.png" className="h-8" alt="Saghara Labs Logo" />
+          <span className="text-md self-center font-semibold whitespace-nowrap text-slate-800">
+            Saghara Labs
           </span>
         </a>
         <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
@@ -20,7 +16,7 @@ export default function Navbar() {
             type="button"
             className="rounded-lg bg-blue-700 px-4 py-2 text-center text-sm font-medium text-white hover:bg-blue-800"
           >
-            Get started
+            Contact Us
           </button>
           <button
             data-collapse-toggle="navbar-sticky"
@@ -51,7 +47,7 @@ export default function Navbar() {
           className="hidden w-full items-center justify-between md:order-1 md:flex md:w-auto"
           id="navbar-sticky"
         >
-          <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
+          <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-base font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
             <li>
               <a
                 href="#"
@@ -82,7 +78,7 @@ export default function Navbar() {
                 href="#"
                 className="block rounded-sm px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
               >
-                Contact
+                Insights
               </a>
             </li>
           </ul>
