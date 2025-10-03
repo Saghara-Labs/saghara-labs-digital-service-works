@@ -2,12 +2,13 @@ export default function Hero() {
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:py-16">
-        <h1 className="mb-4 text-4xl leading-none font-extrabold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
-          We invest in the world’s potential
+        <h1 className="mb-4 inline-block bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-4xl leading-tight font-bold tracking-tight text-transparent md:text-5xl lg:text-6xl">
+          Digital Service Works
         </h1>
-        <p className="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:px-48 lg:text-xl">
-          Here at Flowbite we focus on markets where technology, innovation,
-          ands capital can unlock long-term value and drive economic growth.
+        <p className="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:px-60 lg:text-xl">
+          We craft websites, design, copywriting, branding, and visual assets,
+          delivering templates or custom solutions that make your online
+          presence stand out.
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <a
@@ -30,12 +31,6 @@ export default function Hero() {
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
-          </a>
-          <a
-            href="#"
-            className="rounded-lg border border-gray-200 bg-white px-5 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 sm:ms-4"
-          >
-            Learn more
           </a>
         </div>
       </div>
