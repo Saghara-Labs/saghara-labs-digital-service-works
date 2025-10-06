@@ -1,6 +1,6 @@
-import Card from "@/components/ui/Card";
+import TemplateCard from "@/components/ui/TemplateCard";
 
-const cardData = [
+const templatesData = [
   {
     title: "Saghara Labs",
     description:
@@ -75,7 +75,7 @@ const cardData = [
   },
 ];
 
-export default function Cards() {
+export default function Templates() {
   return (
     <div className="flex flex-col items-center justify-center gap-12 py-12">
       <div className="flex w-full max-w-screen-xl justify-between">
@@ -92,15 +92,15 @@ export default function Cards() {
         </a>
       </div>
       <div className="grid max-w-screen-xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {cardData.map((card, index) => (
-          <Card
+        {templatesData.map((template, index) => (
+          <TemplateCard
             key={index}
-            title={card.title}
-            description={card.description}
-            image={card.image}
-            icon={card.icon}
-            price={card.price}
-            link={card.link}
+            title={template.title}
+            description={template.description}
+            image={template.image}
+            icon={template.icon}
+            price={template.price}
+            link={template.link}
           />
         ))}
       </div>

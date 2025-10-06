@@ -3,7 +3,7 @@ import Button from "@/components/ui/Button";
 export default function Navbar() {
   return (
     <nav className="start-0 top-0 z-20 w-full border-b border-gray-200 bg-white">
-      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between py-4">
+      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between py-2">
         <a
           href="https://sagharalabs.com"
           className="flex items-center space-x-3 rtl:space-x-reverse"
