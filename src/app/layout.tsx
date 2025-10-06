@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Saghara Labs",
   description: "Crafted by Saghara Labs",
   icons: {
-    icon: "sagharalabs.png",
+    icon: "saghara-icon.png",
   },
 };
 

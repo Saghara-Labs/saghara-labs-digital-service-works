@@ -2,43 +2,39 @@ interface CardProps {
   title: string;
   description: string;
   image: string;
+  icon: string;
+  price: string;
   link: string;
 }
 
-export default function Card({ title, description, image, link }: CardProps) {
+export default function Card({
+  title,
+  description,
+  image,
+  icon,
+  price,
+  link,
+}: CardProps) {
   return (
-    <div className="max-w-sm rounded-lg border border-gray-200 bg-white">
+    <div className="max-w-sm bg-white">
       <a href={link}>
-        <img className="rounded-t-lg" src={image} alt={title} />
+        <div className="aspect-[3/4] w-full overflow-hidden rounded-lg border border-gray-200">
+          <img className="h-full w-full object-cover" src={image} alt={title} />
+        </div>
       </a>
-      <div className="p-5">
-        <a href={link}>
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-            {title}
-          </h5>
-        </a>
-        <p className="mb-3 font-normal text-gray-700">{description}</p>
-        <a
-          href={link}
-          className="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800"
-        >
-          Read more
-          <svg
-            className="ms-2 h-3.5 w-3.5 rtl:rotate-180"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            />
-          </svg>
-        </a>
+      <div className="mt-4 flex gap-3">
+        <img className="h-8 w-8 rounded-full" src={icon} alt={title} />
+        <div>
+          <div className="mb-1 flex justify-between">
+            <a href={link}>
+              <h5 className="text-sm font-semibold text-gray-900">{title}</h5>
+            </a>
+            <p className="text-sm font-semibold text-gray-900">{price}</p>
+          </div>
+          <p className="mb-4 line-clamp-1 text-sm font-normal text-gray-700">
+            {description}
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ export default function Navbar() {
           href="https://sagharalabs.com"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src="sagharalabs.png" className="h-8" alt="Saghara Labs Logo" />
+          <img src="saghara-icon.png" className="h-8" alt="Saghara Labs Logo" />
           <span className="text-md self-center font-semibold whitespace-nowrap text-slate-800">
             Saghara Labs
           </span>
