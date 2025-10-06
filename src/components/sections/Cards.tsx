@@ -77,7 +77,20 @@ const cardData = [
 
 export default function Cards() {
   return (
-    <div className="flex min-h-screen items-center justify-center py-12">
+    <div className="flex flex-col items-center justify-center gap-12 py-12">
+      <div className="flex w-full max-w-screen-xl justify-between">
+        <div className="flex flex-col gap-1">
+          <h1 className="text-2xl font-bold text-slate-800">
+            Our best website templates
+          </h1>
+          <p className="text-lg text-slate-500">
+            Handcrafted templates built by our team
+          </p>
+        </div>
+        <a href="#" className="flex items-end font-semibold text-slate-800">
+          Explore all templates
+        </a>
+      </div>
       <div className="grid max-w-screen-xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {cardData.map((card, index) => (
           <Card
