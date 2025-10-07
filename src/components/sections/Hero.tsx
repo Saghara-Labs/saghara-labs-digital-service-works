@@ -1,37 +1,47 @@
+import Button from "@/components/ui/Button";
+
 export default function Hero() {
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:py-16">
-        <h1 className="mb-4 inline-block bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-4xl leading-tight font-bold tracking-tight text-transparent md:text-5xl lg:text-6xl">
-          Digital Service Works
-        </h1>
-        <p className="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:px-60 lg:text-xl">
-          We craft websites, design, copywriting, branding, and visual assets,
-          delivering templates or custom solutions that make your online
-          presence stand out.
-        </p>
-        <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+        <div>
           <a
             href="#"
-            className="inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-blue-800"
+            className="mb-5 inline-flex items-center justify-between rounded-full bg-blue-100 px-1 py-1 pe-4 text-sm text-blue-700 hover:bg-blue-200"
           >
-            Get started
+            <span className="me-3 rounded-full bg-blue-600 px-4 py-1.5 text-xs text-white">
+              Live
+            </span>{" "}
+            <span className="text-sm font-medium">
+              Let’s craft something magical for your business
+            </span>
             <svg
-              className="ms-2 h-3.5 w-3.5 rtl:rotate-180"
+              className="ms-2 h-2.5 w-2.5 rtl:rotate-180"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              viewBox="0 0 14 10"
+              viewBox="0 0 6 10"
             >
               <path
                 stroke="currentColor"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
+                d="m1 9 4-4-4-4"
               />
             </svg>
           </a>
+        </div>
+        <h1 className="mb-4 inline-block bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-4xl leading-tight font-bold tracking-tight text-transparent md:text-5xl lg:text-6xl">
+          Digital Service Works
+        </h1>
+        <p className="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:px-72 lg:text-lg">
+          We craft websites, design, copywriting, branding, and visual assets,
+          delivering templates or custom solutions that make your online
+          presence stand out.
+        </p>
+        <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+          <Button label="Get started" />
         </div>
       </div>
     </section>

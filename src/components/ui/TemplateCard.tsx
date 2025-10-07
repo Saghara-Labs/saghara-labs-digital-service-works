@@ -1,4 +1,4 @@
-interface CardProps {
+interface TemplateCardProps {
   title: string;
   description: string;
   image: string;
@@ -7,14 +7,14 @@ interface CardProps {
   link: string;
 }
 
-export default function Card({
+export default function TemplateCard({
   title,
   description,
   image,
   icon,
   price,
   link,
-}: CardProps) {
+}: TemplateCardProps) {
   return (
     <div className="max-w-sm bg-white">
       <a href={link}>

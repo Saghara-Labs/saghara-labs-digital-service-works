@@ -1,11 +1,13 @@
 import Hero from "@/components/sections/Hero";
-import Cards from "@/components/sections/Cards";
+import Categories from "@/components/sections/Categories";
+import Templates from "@/components/sections/Templates";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Cards />
+      <Categories />
+      <Templates />
     </>
   );
 }
