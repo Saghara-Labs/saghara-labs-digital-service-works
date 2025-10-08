@@ -3,7 +3,7 @@ import Button from "@/components/ui/Button";
 export default function Hero() {
   return (
     <section className="bg-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:py-16">
+      <div className="mx-auto max-w-screen-xl py-8 text-center lg:py-16">
         <div>
           <a
             href="#"
