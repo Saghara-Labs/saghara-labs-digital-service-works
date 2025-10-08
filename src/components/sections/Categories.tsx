@@ -35,7 +35,7 @@ const categoriesData = [
 
 export default function Categories() {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 py-12">
+    <div className="flex flex-col items-center justify-center gap-12 pb-16">
       <div className="flex w-full max-w-screen-xl justify-between">
         <div className="flex flex-col gap-1">
           <h1 className="text-2xl font-bold text-slate-800">
@@ -45,7 +45,10 @@ export default function Categories() {
             Browse handcrafted templates by category
           </p>
         </div>
-        <a href="#" className="flex items-end font-semibold text-slate-800">
+        <a
+          href="#"
+          className="flex items-end font-semibold text-slate-800 hover:underline"
+        >
           Explore all categories
         </a>
       </div>

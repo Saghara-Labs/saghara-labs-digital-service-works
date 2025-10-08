@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-white">
-      <div className="mx-auto w-full max-w-screen-xl py-8">
+      <div className="mx-auto w-full max-w-screen-xl py-16">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
             href="https://sagharalabs.com"

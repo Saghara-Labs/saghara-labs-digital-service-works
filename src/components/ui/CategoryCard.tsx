@@ -10,10 +10,18 @@ export default function CategoryCard({
   link,
 }: CategoryCardProps) {
   return (
-    <div className="max-w-[25.5rem] bg-white">
+    <div className="w-[25.5rem] bg-white">
       <a href={link}>
-        <div className="aspect-[2.5/1] w-full overflow-hidden rounded-lg border border-gray-200">
-          <img className="h-full w-full object-cover" src={image} alt={title} />
+        <div className="flex aspect-[2.5/1] w-full items-center overflow-hidden rounded-lg border border-slate-300">
+          <p className="flex-1 px-10 text-left text-xl font-semibold text-gray-800">
+            {title}
+          </p>
+
+          <img
+            className="h-40 w-40 border-l border-slate-300 object-cover"
+            src={image}
+            alt={title}
+          />
         </div>
       </a>
     </div>

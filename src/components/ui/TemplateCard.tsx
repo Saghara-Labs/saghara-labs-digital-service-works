@@ -18,7 +18,7 @@ export default function TemplateCard({
   return (
     <div className="max-w-sm bg-white">
       <a href={link}>
-        <div className="aspect-[3/4] w-full overflow-hidden rounded-lg border border-gray-200">
+        <div className="aspect-[3/4] w-full overflow-hidden rounded-lg border border-slate-300">
           <img className="h-full w-full object-cover" src={image} alt={title} />
         </div>
       </a>
