@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "@/components/ui/Button";
 
 export default function Hero() {
@@ -5,7 +6,7 @@ export default function Hero() {
     <section className="bg-white">
       <div className="mx-auto max-w-screen-xl py-8 text-center lg:py-16">
         <div>
-          <a
+          <Link
             href="#"
             className="mb-5 inline-flex items-center justify-between rounded-full bg-blue-100 px-1 py-1 pe-4 text-sm text-blue-700 hover:bg-blue-200"
           >
@@ -30,7 +31,7 @@ export default function Hero() {
                 d="m1 9 4-4-4-4"
               />
             </svg>
-          </a>
+          </Link>
         </div>
         <h1 className="mb-4 inline-block bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-4xl leading-tight font-bold tracking-tight text-transparent md:text-5xl lg:text-6xl">
           Digital Service Works

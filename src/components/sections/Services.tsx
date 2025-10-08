@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "@/components/ui/Button";
 
 export default function Services() {
@@ -19,7 +20,9 @@ export default function Services() {
             </div>
           </div>
           <div className="relative w-full md:w-1/2">
-            <img
+            <Image
+              width={1200}
+              height={720}
               src="/saghara-service.png"
               alt="Services"
               className="absolute h-full w-full object-cover"

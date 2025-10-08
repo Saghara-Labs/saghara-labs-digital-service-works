@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CategoryCard from "@/components/ui/CategoryCard";
 
 const categoriesData = [
@@ -45,12 +46,12 @@ export default function Categories() {
             Browse handcrafted templates by category
           </p>
         </div>
-        <a
+        <Link
           href="#"
           className="flex items-end font-semibold text-slate-800 hover:underline"
         >
           Explore all categories
-        </a>
+        </Link>
       </div>
       <div className="grid max-w-screen-xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {categoriesData.map((category, index) => (

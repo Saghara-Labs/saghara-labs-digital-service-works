@@ -1,18 +1,26 @@
+import Image from "next/image";
+import Link from "next/link";
 import Button from "@/components/ui/Button";
 
 export default function Navbar() {
   return (
     <nav className="start-0 top-0 z-20 w-full border-b border-gray-200 bg-white">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between py-2">
-        <a
+        <Link
           href="https://sagharalabs.com"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src="saghara-icon.png" className="h-8" alt="Saghara Labs Logo" />
+          <Image
+            width={100}
+            height={100}
+            src="/saghara-icon.png"
+            className="h-8 w-8"
+            alt="Saghara Labs Logo"
+          />
           <span className="self-center font-semibold whitespace-nowrap text-slate-800 hover:text-slate-900">
             Saghara Labs
           </span>
-        </a>
+        </Link>
         <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
           <Button label="Contact" />
           <button
@@ -46,37 +54,37 @@ export default function Navbar() {
         >
           <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-sm font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
             <li>
-              <a
+              <Link
                 href="#"
                 className="block rounded-sm bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-slate-800"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
               >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
               >
                 Insights
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
