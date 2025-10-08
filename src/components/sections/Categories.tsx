@@ -45,7 +45,10 @@ export default function Categories() {
             Browse handcrafted templates by category
           </p>
         </div>
-        <a href="#" className="flex items-end font-semibold text-slate-800">
+        <a
+          href="#"
+          className="flex items-end font-semibold text-slate-800 hover:underline"
+        >
           Explore all categories
         </a>
       </div>
