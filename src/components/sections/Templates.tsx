@@ -77,7 +77,7 @@ const templatesData = [
 
 export default function Templates() {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 py-12">
+    <div className="flex flex-col items-center justify-center gap-12 pb-16">
       <div className="flex w-full max-w-screen-xl justify-between">
         <div className="flex flex-col gap-1">
           <h1 className="text-2xl font-bold text-slate-800">
