@@ -1,3 +1,4 @@
+import Link from "next/link";
 import TemplateCard from "@/components/ui/TemplateCard";
 
 const templatesData = [
@@ -87,12 +88,12 @@ export default function Templates() {
             Handcrafted templates built by our team
           </p>
         </div>
-        <a
+        <Link
           href="#"
           className="flex items-end font-semibold text-slate-800 hover:underline"
         >
           Explore all templates
-        </a>
+        </Link>
       </div>
       <div className="grid max-w-screen-xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {templatesData.map((template, index) => (
