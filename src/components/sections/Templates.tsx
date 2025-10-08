@@ -87,7 +87,10 @@ export default function Templates() {
             Handcrafted templates built by our team
           </p>
         </div>
-        <a href="#" className="flex items-end font-semibold text-slate-800">
+        <a
+          href="#"
+          className="flex items-end font-semibold text-slate-800 hover:underline"
+        >
           Explore all templates
         </a>
       </div>
