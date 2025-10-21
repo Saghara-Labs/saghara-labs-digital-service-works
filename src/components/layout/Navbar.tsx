@@ -55,7 +55,7 @@ export default function Navbar() {
           <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 text-sm font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
             <li>
               <Link
-                href="#"
+                href="/"
                 className="block rounded-sm bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-slate-800"
                 aria-current="page"
               >
@@ -64,7 +64,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/about"
                 className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
               >
                 About
@@ -72,7 +72,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/services"
                 className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
               >
                 Services
@@ -80,7 +80,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/insights"
                 className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
               >
                 Insights

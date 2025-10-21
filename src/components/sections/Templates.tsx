@@ -81,12 +81,8 @@ export default function Templates() {
     <div className="flex flex-col items-center justify-center gap-12 pb-16">
       <div className="flex w-full max-w-screen-xl justify-between">
         <div className="flex flex-col gap-1">
-          <h1 className="text-2xl font-bold text-slate-800">
-            Our best website templates
-          </h1>
-          <p className="text-lg text-slate-500">
-            Handcrafted templates built by our team
-          </p>
+          <h1 className="text-2xl font-bold text-slate-800">Templates</h1>
+          <p className="text-lg text-slate-500">Lorem ipsum dolor sit amet</p>
         </div>
         <Link
           href="#"
