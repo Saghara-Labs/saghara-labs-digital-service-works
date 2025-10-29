@@ -40,7 +40,9 @@ export default function Categories() {
       <div className="flex w-full max-w-screen-xl justify-between">
         <div className="flex flex-col gap-1">
           <h1 className="text-2xl font-bold text-slate-800">Categories</h1>
-          <p className="text-lg text-slate-500">Lorem ipsum dolor sit amet</p>
+          <p className="text-lg font-medium text-slate-500">
+            Lorem ipsum dolor sit amet
+          </p>
         </div>
         <Link
           href="#"
