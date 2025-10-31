@@ -8,7 +8,7 @@ export default function AboutPage() {
           <p className="mb-8 text-lg font-semibold text-slate-500">
             About Saghara Labs
           </p>
-          <h1 className="inline-block w-[60rem] text-4xl leading-none font-bold tracking-tight md:text-5xl lg:text-7xl">
+          <h1 className="mb-6 inline-block w-[50rem] text-4xl leading-none font-bold tracking-tight md:text-5xl lg:text-6xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h1>
         </div>
@@ -25,7 +25,7 @@ export default function AboutPage() {
 
         <div className="mt-24 flex gap-10 text-left">
           <div className="flex-1">
-            <h1 className="mb-6 inline-block text-4xl leading-none font-bold tracking-tight md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight">
               Makers
             </h1>
             <p className="text-lg font-semibold text-slate-500">
@@ -38,11 +38,11 @@ export default function AboutPage() {
                 width={100}
                 height={100}
                 src="/saghara-icon.png"
-                className="h-20 w-20"
+                className="h-14 w-14"
                 alt="Saghara Labs Logo"
               />
               <div>
-                <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight">
+                <h1 className="mb-2 inline-block text-2xl leading-none font-semibold tracking-tight">
                   Affrian Rachmansyah
                 </h1>
                 <p className="text-lg font-semibold text-slate-500">
@@ -56,11 +56,11 @@ export default function AboutPage() {
                 width={100}
                 height={100}
                 src="/saghara-icon.png"
-                className="h-20 w-20"
+                className="h-14 w-14"
                 alt="Saghara Labs Logo"
               />
               <div>
-                <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight">
+                <h1 className="mb-2 inline-block text-2xl leading-none font-semibold tracking-tight">
                   Fadhilah Rahman
                 </h1>
                 <p className="text-lg font-semibold text-slate-500">
@@ -74,11 +74,11 @@ export default function AboutPage() {
                 width={100}
                 height={100}
                 src="/saghara-icon.png"
-                className="h-20 w-20"
+                className="h-14 w-14"
                 alt="Saghara Labs Logo"
               />
               <div>
-                <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight">
+                <h1 className="mb-2 inline-block text-2xl leading-none font-semibold tracking-tight">
                   Luqman Herifa
                 </h1>
                 <p className="text-lg font-semibold text-slate-500">
@@ -93,7 +93,7 @@ export default function AboutPage() {
 
         <div className="flex gap-10 text-left">
           <div className="flex-1">
-            <h1 className="mb-6 inline-block text-4xl leading-none font-bold tracking-tight md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight">
               Reviews
             </h1>
             <p className="text-lg font-semibold text-slate-500">
@@ -102,7 +102,7 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-1 flex-col">
             <div>
-              <h1 className="mb-6 inline-block text-4xl leading-none font-bold tracking-tight">
+              <h1 className="mb-6 inline-block text-3xl leading-none font-semibold tracking-tight">
                 Sumber Brian Abadi
               </h1>
               <div className="flex gap-2">
@@ -148,7 +148,7 @@ export default function AboutPage() {
             </div>
             <hr className="my-8 border-gray-200" />
             <div>
-              <h1 className="mb-6 inline-block text-4xl leading-none font-bold tracking-tight">
+              <h1 className="mb-6 inline-block text-3xl leading-none font-semibold tracking-tight">
                 Atma Karya Teknik
               </h1>
               <div className="flex gap-2">
