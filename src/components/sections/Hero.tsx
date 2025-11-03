@@ -3,7 +3,7 @@ import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <section className="bg-white">
+    <section className="bg-white bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')]">
       <div className="mx-auto max-w-screen-xl py-8 text-center lg:py-16">
         <div>
           <Link
