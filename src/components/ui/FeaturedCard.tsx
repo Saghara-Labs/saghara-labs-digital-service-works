@@ -16,7 +16,7 @@ export default function FeaturedCard({
 }: FeaturedCardProps) {
   return (
     <div className="w-[25.5rem] bg-white">
-      <Link href={link}>
+      <Link href={link} className="group">
         <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg border border-slate-300">
           <Image
             width={600}
@@ -29,7 +29,7 @@ export default function FeaturedCard({
             <h5 className="line-clamp-2 w-52 text-xl font-semibold text-white">
               {title}
             </h5>
-            <p className="mt-4 w-72 text-sm font-medium text-gray-200">
+            <p className="mt-4 hidden w-72 text-sm font-medium text-gray-200 group-hover:block">
               {description}
             </p>
           </div>
