@@ -1,4 +1,4 @@
-import FeaturedCard from "../ui/FeaturedCard";
+import FeaturedCard from "@/components/ui/FeaturedCard";
 
 const featuredData = [
   {

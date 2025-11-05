@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BuildCard from "../ui/BuildCard";
+import BuildCard from "@/components/ui/BuildCard";
 
 const buildData = [
   {
