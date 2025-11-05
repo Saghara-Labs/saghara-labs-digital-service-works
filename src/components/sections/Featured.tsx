@@ -43,6 +43,20 @@ export default function Featured() {
           />
         ))}
       </div>
+      <div>
+        <p className="w-[43rem] text-3xl leading-snug font-medium tracking-tight text-slate-800">
+          With the advent of AI, your brand has never mattered more. A
+          good-looking site isn’t enough; to stay relevant, you need dynamic
+          digital experiences that resonate with humans and are readable by
+          bots. You need Webflow’s AI-native website experience platform.
+        </p>
+        <a
+          href="#"
+          className="mt-4 inline-block text-base font-semibold text-slate-800 underline"
+        >
+          Discover Webflow AI
+        </a>
+      </div>
     </div>
   );
 }
