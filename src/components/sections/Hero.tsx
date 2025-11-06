@@ -3,8 +3,8 @@ import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <section className="bg-white bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')]">
-      <div className="mx-auto max-w-screen-xl py-8 text-center lg:py-16">
+    <section className="relative bg-white bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] bg-cover bg-top bg-no-repeat after:absolute after:right-0 after:bottom-0 after:left-0 after:h-5 after:bg-gradient-to-b after:from-transparent after:to-white after:content-['']">
+      <div className="mx-auto max-w-screen-xl py-8 text-center lg:py-40">
         <div>
           <Link
             href="#"

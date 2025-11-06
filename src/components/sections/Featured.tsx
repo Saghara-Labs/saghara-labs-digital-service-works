@@ -1,4 +1,4 @@
-import FeaturedCard from "../ui/FeaturedCard";
+import FeaturedCard from "@/components/ui/FeaturedCard";
 
 const featuredData = [
   {
@@ -26,9 +26,9 @@ const featuredData = [
 
 export default function Featured() {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 pt-16 pb-16">
+    <div className="flex flex-col items-center justify-center gap-12 py-20">
       <div className="mx-auto max-w-screen-xl py-0 text-center lg:py-0">
-        <h1 className="inline-block w-[50rem] text-5xl leading-tight font-bold tracking-tight">
+        <h1 className="inline-block w-[50rem] text-5xl leading-none font-bold tracking-tight text-slate-800">
           The website experience platform for high-performing brands
         </h1>
       </div>
@@ -42,6 +42,20 @@ export default function Featured() {
             link={featured.link}
           />
         ))}
+      </div>
+      <div>
+        <p className="w-[43rem] text-3xl leading-snug font-medium tracking-tight text-slate-800">
+          With the advent of AI, your brand has never mattered more. A
+          good-looking site isn’t enough; to stay relevant, you need dynamic
+          digital experiences that resonate with humans and are readable by
+          bots. You need Webflow’s AI-native website experience platform.
+        </p>
+        <a
+          href="#"
+          className="mt-4 inline-block text-base font-semibold text-slate-800 underline"
+        >
+          Discover Webflow AI
+        </a>
       </div>
     </div>
   );
