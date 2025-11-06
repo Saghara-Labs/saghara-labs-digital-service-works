@@ -26,9 +26,9 @@ const featuredData = [
 
 export default function Featured() {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 pt-16 pb-16">
+    <div className="flex flex-col items-center justify-center gap-12 py-20">
       <div className="mx-auto max-w-screen-xl py-0 text-center lg:py-0">
-        <h1 className="inline-block w-[50rem] text-5xl leading-none font-bold tracking-tight">
+        <h1 className="inline-block w-[50rem] text-5xl leading-none font-bold tracking-tight text-slate-800">
           The website experience platform for high-performing brands
         </h1>
       </div>
