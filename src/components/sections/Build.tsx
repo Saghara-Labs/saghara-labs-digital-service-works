@@ -24,7 +24,7 @@ const buildData = [
 
 export default function Build() {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 py-20">
+    <div className="flex flex-col items-center justify-center gap-12 pt-20 pb-40">
       <div className="mx-auto flex max-w-screen-xl flex-col items-start justify-between gap-8 py-0 lg:flex-row">
         <h1 className="w-full text-left text-5xl leading-none font-bold tracking-tight text-slate-800 lg:w-1/2">
           Go from idea to impact faster with AI
