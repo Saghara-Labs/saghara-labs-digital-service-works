@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/images/card-1.webp
+public/images/card-2.webp
+public/images/card-3.webp
+public/images/card-4.webp
+public/images/card-5.webp
+public/images/card-6.webp
+public/images/card-7.webp
+public/images/card-8.webp
+public/images/icon-1.webp
+public/images/icon-2.webp
+public/images/icon-3.webp
+public/images/icon-4.webp
+public/images/icon-5.webp
+public/images/icon-6.jpeg
+public/images/icon-7.webp
+public/images/icon-8.webp
+public/images/serviceswebflow.webp
