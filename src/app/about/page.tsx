@@ -9,7 +9,7 @@ export default function AboutPage() {
             About Saghara Labs
           </p>
           <h1 className="mb-6 inline-block w-[50rem] text-4xl leading-none font-bold tracking-tight md:text-5xl lg:text-6xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            A digital studio built around craft and clarity.
           </h1>
         </div>
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
           <Image
             width={1280}
             height={768}
-            src="/saghara-service.png"
+            src="/saghara-build.png"
             className="rounded-2xl"
             alt="Saghara Labs Service"
           />
@@ -26,10 +26,10 @@ export default function AboutPage() {
         <div className="mt-24 flex gap-10 text-left">
           <div className="flex-1">
             <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight">
-              Makers
+              Our team
             </h1>
             <p className="text-lg font-semibold text-slate-500">
-              We’re dedicated to building a team.
+              A small team that cares about the details
             </p>
           </div>
           <div className="flex flex-1 flex-col">
@@ -93,7 +93,7 @@ export default function AboutPage() {
               Reviews
             </h1>
             <p className="text-lg font-semibold text-slate-500">
-              See what our customers think about us.
+              Words from people we’ve worked with
             </p>
           </div>
           <div className="flex flex-1 flex-col">

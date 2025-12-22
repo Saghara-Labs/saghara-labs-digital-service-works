@@ -8,10 +8,11 @@ export default function Services() {
         <div className="flex flex-col items-center justify-center py-20">
           <div className="mb-12 text-center">
             <h1 className="mb-6 w-[35rem] text-5xl leading-none font-semibold tracking-tight text-white">
-              Make creativity your competitive edge
+              Stand out through thoughtful digital craft
             </h1>
             <p className="mb-8 text-lg font-medium text-white">
-              Bring your boldest ideas to life with Webflow.
+              We help bring ideas to life with design and experiences built for
+              real impact.
             </p>
             <div>
               <Button label="Get started" />
