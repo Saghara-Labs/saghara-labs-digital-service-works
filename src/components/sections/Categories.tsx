@@ -39,16 +39,16 @@ export default function Categories() {
     <div className="flex flex-col items-center justify-center gap-12 pb-16">
       <div className="flex w-full max-w-screen-xl justify-between">
         <div className="flex flex-col gap-1">
-          <h1 className="text-2xl font-bold text-slate-800">
+          <h1 className="text-2xl font-bold text-gray-700">
             Service categories
           </h1>
-          <p className="text-lg font-medium text-slate-500">
+          <p className="text-lg font-medium text-gray-500">
             A selection of services we often work on
           </p>
         </div>
         <Link
           href="#"
-          className="flex items-end font-semibold text-slate-800 hover:underline"
+          className="flex items-end font-semibold text-gray-700 hover:underline"
         >
           Explore all services
         </Link>

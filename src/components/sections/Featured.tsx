@@ -28,7 +28,7 @@ export default function Featured() {
   return (
     <div className="flex flex-col items-center justify-center gap-12 py-20">
       <div className="mx-auto max-w-screen-xl py-0 text-center lg:py-0">
-        <h1 className="inline-block w-[50rem] text-5xl leading-none font-bold tracking-tight text-slate-800">
+        <h1 className="inline-block w-[50rem] text-5xl leading-none font-bold tracking-tight text-gray-700">
           A digital experience studio for growing local brands
         </h1>
       </div>
@@ -44,13 +44,13 @@ export default function Featured() {
         ))}
       </div>
       <div>
-        <p className="w-[43rem] text-3xl leading-snug font-medium tracking-tight text-slate-800">
+        <p className="w-[43rem] text-3xl leading-snug font-medium tracking-tight text-gray-700">
           A well-crafted website is just the start. What matters is how it
           serves your real business goals.
         </p>
         <a
           href="#"
-          className="mt-4 inline-block text-base font-semibold text-slate-800 underline"
+          className="mt-4 inline-block text-base font-semibold text-gray-700 underline"
         >
           Let’s build something together
         </a>

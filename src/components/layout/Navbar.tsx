@@ -17,7 +17,7 @@ export default function Navbar() {
             className="h-8 w-8"
             alt="Saghara Labs Logo"
           />
-          <span className="self-center font-semibold whitespace-nowrap text-slate-800 hover:text-slate-900">
+          <span className="self-center font-semibold whitespace-nowrap text-gray-700 hover:text-gray-700">
             Saghara Labs
           </span>
         </Link>
@@ -56,7 +56,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block rounded-sm bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-slate-800"
+                className="block rounded-sm bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-gray-700"
                 aria-current="page"
               >
                 Home
@@ -65,7 +65,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/about"
-                className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
+                className="block rounded-sm px-3 py-2 text-gray-700 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-gray-700"
               >
                 About
               </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/services"
-                className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
+                className="block rounded-sm px-3 py-2 text-gray-700 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-gray-700"
               >
                 Services
               </Link>
@@ -81,7 +81,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/insights"
-                className="block rounded-sm px-3 py-2 text-slate-800 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-slate-900"
+                className="block rounded-sm px-3 py-2 text-gray-700 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-gray-700"
               >
                 Insights
               </Link>

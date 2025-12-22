@@ -17,7 +17,7 @@ export default function Footer() {
               className="h-8 w-8"
               alt="Saghara Labs Logo"
             />
-            <span className="self-center font-semibold whitespace-nowrap text-slate-800 hover:text-slate-900">
+            <span className="self-center font-semibold whitespace-nowrap text-gray-700 hover:text-gray-700">
               Saghara Labs
             </span>
           </Link>

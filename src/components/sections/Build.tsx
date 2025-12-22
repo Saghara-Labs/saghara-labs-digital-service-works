@@ -26,10 +26,10 @@ export default function Build() {
   return (
     <div className="flex flex-col items-center justify-center gap-12 pt-20 pb-40">
       <div className="mx-auto flex max-w-screen-xl flex-col items-start justify-between gap-8 py-0 lg:flex-row">
-        <h1 className="w-full text-left text-5xl leading-none font-bold tracking-tight text-slate-800 lg:w-1/2">
+        <h1 className="w-full text-left text-5xl leading-none font-bold tracking-tight text-gray-700 lg:w-1/2">
           From idea to impact through thoughtful craft
         </h1>
-        <p className="w-full text-left text-lg font-medium text-gray-600 lg:w-1/2">
+        <p className="w-full text-left text-lg font-medium text-gray-500 lg:w-1/2">
           We help brands turn ideas into real outcomes by combining clear
           strategy, purposeful design, and well-crafted digital experiences.
           Every step is built to support meaningful work and real business
