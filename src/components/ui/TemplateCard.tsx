@@ -21,7 +21,7 @@ export default function TemplateCard({
   return (
     <div className="max-w-sm bg-white">
       <Link href={link}>
-        <div className="aspect-[3/4] w-full overflow-hidden rounded-lg border border-slate-300">
+        <div className="aspect-[3/4] w-full overflow-hidden rounded-lg border border-gray-300">
           <Image
             width={600}
             height={800}
@@ -42,11 +42,11 @@ export default function TemplateCard({
         <div>
           <div className="mb-1 flex justify-between">
             <Link href={link}>
-              <h5 className="text-sm font-semibold text-gray-900">{title}</h5>
+              <h5 className="text-sm font-semibold text-gray-700">{title}</h5>
             </Link>
-            <p className="text-sm font-semibold text-gray-900">{price}</p>
+            <p className="text-sm font-semibold text-gray-700">{price}</p>
           </div>
-          <p className="mb-4 line-clamp-1 text-sm font-normal text-gray-700">
+          <p className="mb-4 line-clamp-1 text-sm font-normal text-gray-500">
             {description}
           </p>
         </div>

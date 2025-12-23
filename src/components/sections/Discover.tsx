@@ -2,11 +2,12 @@ export default function Discover() {
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-screen-xl py-8 text-center lg:py-16">
-        <h1 className="mb-6 inline-block w-[50rem] text-4xl leading-none font-bold tracking-tight md:text-5xl lg:text-6xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit
+        <h1 className="mb-6 inline-block w-[35rem] text-4xl leading-none font-semibold tracking-tight text-gray-700 md:text-5xl lg:text-5xl">
+          Custom digital services tailored to your brand
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:px-72 lg:text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          We design and build websites, identities, and content tailored to your
+          brand.
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <form className="mx-auto flex max-w-sm items-center">
@@ -32,7 +33,7 @@ export default function Discover() {
               <input
                 type="text"
                 id="simple-search"
-                className="block w-full rounded-full border border-gray-300 bg-gray-50 p-2.5 ps-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-full border border-gray-300 bg-gray-50 p-2.5 ps-10 text-sm text-gray-700 focus:border-blue-500 focus:ring-blue-500"
                 placeholder="Search all categories or templates..."
                 required
               />
