@@ -5,21 +5,21 @@ const featuredData = [
     title: "Craft meaningful brand experiences",
     description:
       "We help businesses shape strong digital identities through thoughtful websites, visual design, and branding. Everything is crafted with purpose, clarity, and consistency.",
-    image: "/saghara-featured.png",
+    image: "/saghara-craft.png",
     link: "#",
   },
   {
     title: "Design and content that speaks clearly",
     description:
       "From copywriting to layout and visuals, we create content that feels natural, easy to understand, and aligned with your brand’s character.",
-    image: "/saghara-featured.png",
+    image: "/saghara-design.png",
     link: "#",
   },
   {
     title: "Built to support real business goals",
     description:
       "Every project is designed to support your growth. Whether it’s building trust, increasing engagement, or turning visitors into customers.",
-    image: "/saghara-featured.png",
+    image: "/saghara-built.png",
     link: "#",
   },
 ];

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 
-export default function Services() {
+export default function Action() {
   return (
     <section className="bg-blue-600">
       <div className="mx-auto max-w-screen-xl text-center">
@@ -20,11 +20,11 @@ export default function Services() {
           </div>
           <div className="w-[50rem]">
             <Image
-              width={1200}
-              height={720}
-              src="/saghara-service.png"
+              width={1800}
+              height={1080}
+              src="/saghara-standout.png"
               alt="Services"
-              className="h-full w-full rounded-lg object-cover"
+              className="h-full w-full rounded-xl border border-white/20 object-cover shadow-xl"
             />
           </div>
         </div>

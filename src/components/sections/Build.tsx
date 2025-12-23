@@ -38,10 +38,10 @@ export default function Build() {
       </div>
       <div className="max-w-screen-xl">
         <Image
-          width={1920}
-          height={1080}
+          width={3200}
+          height={1000}
           className="h-full rounded-2xl object-cover"
-          src="/saghara-build.png"
+          src="/saghara-code.png"
           alt="Saghara Build"
         />
       </div>
