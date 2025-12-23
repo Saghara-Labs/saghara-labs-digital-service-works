@@ -2,7 +2,7 @@ export default function Discover() {
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-screen-xl py-8 text-center lg:py-16">
-        <h1 className="mb-6 inline-block w-[50rem] text-4xl leading-none font-bold tracking-tight text-gray-700 md:text-5xl lg:text-6xl">
+        <h1 className="mb-6 inline-block w-[35rem] text-4xl leading-none font-semibold tracking-tight text-gray-700 md:text-5xl lg:text-5xl">
           Custom digital services tailored to your brand
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:px-72 lg:text-lg">

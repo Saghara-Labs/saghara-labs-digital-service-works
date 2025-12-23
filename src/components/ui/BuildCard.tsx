@@ -15,7 +15,7 @@ export default function BuildCard({
     <div className="w-[25.5rem]">
       <Link href={link}>
         <div className="w-full">
-          <h5 className="line-clamp-2 text-2xl font-bold text-gray-700">
+          <h5 className="line-clamp-2 text-2xl font-semibold text-gray-700">
             {title}
           </h5>
           <p className="mt-4 text-sm font-medium text-gray-500">

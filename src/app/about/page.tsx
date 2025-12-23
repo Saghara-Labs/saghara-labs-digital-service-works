@@ -8,12 +8,12 @@ export default function AboutPage() {
           <p className="mb-8 text-lg font-semibold text-gray-500">
             About Saghara Labs
           </p>
-          <h1 className="mb-6 inline-block w-[50rem] text-4xl leading-none font-bold tracking-tight text-gray-700 md:text-5xl lg:text-6xl">
+          <h1 className="mb-0 inline-block w-[35rem] text-4xl leading-none font-semibold tracking-tight text-gray-700 md:text-5xl lg:text-5xl">
             A digital studio built around craft and clarity.
           </h1>
         </div>
 
-        <div className="mt-16 flex items-center justify-center">
+        <div className="mt-12 flex items-center justify-center">
           <Image
             width={1280}
             height={768}
@@ -23,9 +23,9 @@ export default function AboutPage() {
           />
         </div>
 
-        <div className="mt-24 flex gap-10 text-left">
+        <div className="mt-12 flex gap-10 text-left">
           <div className="flex-1">
-            <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight text-gray-700">
+            <h1 className="mb-4 inline-block text-3xl leading-none font-semibold tracking-tight text-gray-700">
               Our team
             </h1>
             <p className="text-lg font-semibold text-gray-500">
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 alt="Saghara Labs Logo"
               />
               <div>
-                <h1 className="mb-2 text-2xl font-semibold text-gray-700">
+                <h1 className="mb-2 text-xl font-semibold text-gray-700">
                   Affrian Rachmansyah
                 </h1>
                 <p className="text-lg font-semibold text-gray-500">
@@ -50,7 +50,7 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <hr className="my-8 border-gray-200" />
+            <hr className="my-6 border-gray-200" />
             <div className="flex gap-5">
               <Image
                 width={100}
@@ -60,7 +60,7 @@ export default function AboutPage() {
                 alt="Saghara Labs Logo"
               />
               <div>
-                <h1 className="mb-2 text-2xl font-semibold text-gray-700">
+                <h1 className="mb-2 text-xl font-semibold text-gray-700">
                   Fadhilah Rahman
                 </h1>
                 <p className="text-lg font-semibold text-gray-500">
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <hr className="my-8 border-gray-200" />
+            <hr className="my-6 border-gray-200" />
             <div className="flex gap-5">
               <Image
                 width={100}
@@ -78,7 +78,7 @@ export default function AboutPage() {
                 alt="Saghara Labs Logo"
               />
               <div>
-                <h1 className="mb-2 text-2xl font-semibold text-gray-700">
+                <h1 className="mb-2 text-xl font-semibold text-gray-700">
                   Luqman Herifa
                 </h1>
                 <p className="text-lg font-semibold text-gray-500">
@@ -89,11 +89,11 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <hr className="my-24 border-gray-200" />
+        <hr className="my-12 border-gray-200" />
 
         <div className="flex gap-10 text-left">
           <div className="flex-1">
-            <h1 className="mb-4 inline-block text-4xl leading-none font-bold tracking-tight text-gray-700">
+            <h1 className="mb-4 inline-block text-3xl leading-none font-semibold tracking-tight text-gray-700">
               Reviews
             </h1>
             <p className="text-lg font-semibold text-gray-500">
@@ -102,7 +102,7 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-1 flex-col">
             <div>
-              <h1 className="mb-5 text-3xl font-semibold text-gray-700">
+              <h1 className="mb-5 text-2xl font-semibold text-gray-700">
                 Sumber Brian Abadi
               </h1>
               <div className="flex gap-2">
@@ -151,9 +151,9 @@ export default function AboutPage() {
                 as of 2025
               </p>
             </div>
-            <hr className="my-8 border-gray-200" />
+            <hr className="my-6 border-gray-200" />
             <div>
-              <h1 className="mb-5 text-3xl font-semibold text-gray-700">
+              <h1 className="mb-5 text-2xl font-semibold text-gray-700">
                 Atma Karya Teknik
               </h1>
               <div className="flex gap-2">

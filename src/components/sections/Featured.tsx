@@ -28,7 +28,7 @@ export default function Featured() {
   return (
     <div className="flex flex-col items-center justify-center gap-12 py-20">
       <div className="mx-auto max-w-screen-xl py-0 text-center lg:py-0">
-        <h1 className="inline-block w-[50rem] text-5xl leading-none font-bold tracking-tight text-gray-700">
+        <h1 className="inline-block w-[50rem] text-5xl leading-none font-semibold tracking-tight text-gray-700">
           A digital experience studio for growing local brands
         </h1>
       </div>
